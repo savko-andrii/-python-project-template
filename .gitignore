@@ -9,6 +9,7 @@ __pycache__/
 *~
 .venv/
 .idea/
+.DS_Store/
 
 # due to using nox and pytest
 .nox
