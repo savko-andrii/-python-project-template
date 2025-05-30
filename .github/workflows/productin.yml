@@ -1,8 +1,8 @@
-name: CI Build
+name: productin.yml  
 
-on: 
-  pull_request:
-    branches: ["features/**"]
+on:
+  push:
+    branches: ['main']
 
 jobs:
 

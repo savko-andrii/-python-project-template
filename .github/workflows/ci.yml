@@ -2,7 +2,8 @@ name: CI Build
 
 on: 
   pull_request:
-    branches: [""]
+    branches: 
+      - "features/**"
 
 jobs:
 
